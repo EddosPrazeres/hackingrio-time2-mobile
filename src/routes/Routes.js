@@ -4,7 +4,12 @@ import { createStackNavigator } from 'react-navigation-stack'
 import { createAppContainer } from 'react-navigation'
 
 const AppNavigator = createStackNavigator({
-  HomeScreen: { screen: views.HomeScreen },
+  HomeScreen: {
+    screen: views.HomeScreen,
+    navigationOptions: {
+      headerTransparent: true,
+    }
+  },
   // Insert views here
 })
 

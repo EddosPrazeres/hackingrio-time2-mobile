@@ -5,5 +5,6 @@ export default {
     midlack: "#252A33",
     lightBlack: "#282e39",
     white: "#fff",
-    transparent: 'transparent'
+    transparent: 'transparent',
+    background: "#F8F9FB"
 }
